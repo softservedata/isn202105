@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Title Thymeleaf</title>
+<link href="/css/main.css" rel="stylesheet">
+<style>
+ body {
+  #background-color: #b2b2b2;
+  #background-color: rgba(0, 0, 0, .3);
+  #background-image: linear-gradient(red, yellow);
+  background-image: linear-gradient(to right, yellow, red);
+ }
+</style>
+</head>
+<body>
+	<h1 class="info-title">Welcome Thymeleaf</h1>
+	<h2 th:utext="${message}"></h2>
+	<script src="/js/main.js"></script>
+</body>
+</html>
