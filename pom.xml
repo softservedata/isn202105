@@ -5,10 +5,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.softserve.edu</groupId>
-	<artifactId>MyThymeleaf</artifactId>
+	<artifactId>SpringThymeleaf</artifactId>
 	<version>1.0</version>
 
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -70,8 +70,8 @@
 
 
 	<build>
-            <finalName>dev</finalName>
-
+		<finalName>dev</finalName>
+		
 		<plugins>
 
 			<plugin>
