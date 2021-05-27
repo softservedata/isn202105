@@ -14,7 +14,6 @@ import com.softserve.edu.service.PersonService;
 @Transactional
 public class PersonServiceImpl implements PersonService {
 
-    // @Autowired
     private PersonRepository personRepository;
 
     @Autowired

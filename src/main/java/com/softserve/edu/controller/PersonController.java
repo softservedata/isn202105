@@ -27,7 +27,6 @@ public class PersonController {
 
     @Autowired
     public PersonController(PersonService personService,
-            @Qualifier("AddOperationService")
             OperationService operationService) {
         this.personService = personService;
         this.operationService = operationService;
